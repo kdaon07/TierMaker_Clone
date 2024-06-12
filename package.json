@@ -1,5 +1,4 @@
 {
-  "homepage": "https://kdaon07.github.io/TierMaker_Clone",
   "name": "myproject",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
@@ -33,4 +32,5 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
   }
+  
 }
